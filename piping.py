@@ -28,7 +28,6 @@ def equations(vars):
 	eq1 = 1/math.sqrt(f3) + 2*math.log2(const + 2.51/(Re3*math.sqrt(f3)))
 	#eq14 = DP_12 - DP_13
 	#eq1 = DP_12 - 200000
-
 	return [eq1, eq2, eq3, eq4, eq5, eq6, eq7, eq8, eq9, eq10, eq11, eq12]
 
 initial_guesses = [0.0009, 0.00042,0.00048,5.09,2.4,2.7,7e10,8e10,9e10,0.00008,0.00008,0.00008]
