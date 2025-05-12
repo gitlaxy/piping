@@ -15,3 +15,5 @@ HOWEVER, the solution reported in the above [link](https://youtu.be/HwxZiOAlS9A?
 $\dot v_1 = 0.0009$, $\dot v_2 = 0.00042$, $\dot v_3 = 0.00048$.
 
 Something might be wrong with my code!
+
+To replicate the Author's results, the pressure differences ($P_1 - P_2$ and $P_1 - P_3$) have to decrease from 200 kPa to 101.325 kPa.
