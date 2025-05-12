@@ -1,7 +1,7 @@
 # piping
 Pipework exercise
 
-piping.py attempts to replicate part (b) of the book exercise (Example: Taking a Shower and Flushing a Toilet (from Cengel and cimbala)) shown here:
+piping.py attempts to replicate part (b) of the book exercise (Example: Taking a Shower and Flushing a Toilet (from Cengel and Cimbala)) shown here:
 https://youtu.be/HwxZiOAlS9A?t=595
 
 *fsolve*, from scipy, is used to solve the system of equations (12 eqs and 12 unknowns).
