@@ -1,16 +1,17 @@
 # piping
 Pipework exercise
-This python code attempts to replicate part (b) of the book exercise (Example: Taking a Shower and Flushing a Toilet (from Cengel and cimbala)) shown here:
+
+piping.py attempts to replicate part (b) of the book exercise (Example: Taking a Shower and Flushing a Toilet (from Cengel and cimbala)) shown here:
 https://youtu.be/HwxZiOAlS9A?t=595
 
-fsolve, from scipy, is used to solve the system of equations (12 eqs and 12 unknowns).
+*fsolve*, from scipy, is used to solve the system of equations (12 eqs and 12 unknowns).
 
-The python code's volumetric solution is:
+The script's volumetric flow solution is:
 
-  **v1_dot** = 0.001260, **v2_dot** = 0.000629, **v3_dot** = 0.000631.
+$\mathbf{\dot v_1} = 0.001260$, $\dot v_2 = 0.000629$, $\dot v_3 = 0.000631$.
 
-HOWEVER, the solution reported in the above link is:
+HOWEVER, the solution reported in the above [link](https://youtu.be/HwxZiOAlS9A?t=655) is:
 
-  **v1_dot** = 0.0009, **v1_dot** = 0.00042, **v1_dot** = 0.00048.
+$\dot v_1 = 0.0009$, $\dot v_2 = 0.00042$, $\dot v_3 = 0.00048$.
 
 Something might be wrong with my code!
