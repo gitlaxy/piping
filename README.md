@@ -8,6 +8,10 @@ https://youtu.be/HwxZiOAlS9A?t=595
 
 The volumetric flow solution is:
 
-$\dot v_1 = 0.0009$, $\dot v_2 = 0.00042$, $\dot v_3 = 0.00048$.
+$\dot v_1 = 0.0009{} \frac{m^3}{s}$
+
+$\dot v_2 = 0.00042{} \frac{m^3}{s}$
+
+$\dot v_3 = 0.00048{} \frac{m^3}{s}$.
 
 
