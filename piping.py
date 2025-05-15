@@ -23,9 +23,9 @@ def equations(vars):
 	eq8 = Re1 - v1*d/ks
 	eq9 = Re2 - v2*d/ks
 	eq10 = Re3 - v3*d/ks
-	eq11 = 1/math.sqrt(f1) + 2*math.log2(const + 2.51/(Re1*math.sqrt(f1)))
-	eq12 = 1/math.sqrt(f2) + 2*math.log2(const + 2.51/(Re2*math.sqrt(f2)))
-	eq1 = 1/math.sqrt(f3) + 2*math.log2(const + 2.51/(Re3*math.sqrt(f3)))
+	eq11 = 1/math.sqrt(f1) + 2*math.log10(const + 2.51/(Re1*math.sqrt(f1)))
+	eq12 = 1/math.sqrt(f2) + 2*math.log10(const + 2.51/(Re2*math.sqrt(f2)))
+	eq1 = 1/math.sqrt(f3) + 2*math.log10(const + 2.51/(Re3*math.sqrt(f3)))
 	#eq14 = DP_12 - DP_13
 	#eq1 = DP_12 - 200000
 	return [eq1, eq2, eq3, eq4, eq5, eq6, eq7, eq8, eq9, eq10, eq11, eq12]
